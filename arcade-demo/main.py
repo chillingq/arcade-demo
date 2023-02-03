@@ -1,3 +1,5 @@
+print("mañsd")
+
 """
 This program shows how to:
   * Have one or more instruction screens
@@ -5,8 +7,8 @@ This program shows how to:
   * Allow the user to restart the game
 
 Make a separate class for each view (screen) in your game.
-The class will inherit from arcade.View. The structure will
-look like an arcade.Window as each view will need to have its own draw,
+The class will inherit from arcade.py.View. The structure will
+look like an arcade.py.Window as each view will need to have its own draw,
 update and window event methods. To switch a view, simply create a view
 with `view = MyView()` and then use the view.show() method.
 
@@ -15,7 +17,7 @@ around (see: time_taken), or you can store data on the Window object to share da
 all Views (see: total_score).
 
 If Python and Arcade are installed, this example can be run from the command line with:
-python -m arcade.examples.view_instructions_and_game_over.py
+python -m arcade.py.examples.view_instructions_and_game_over.py
 
 Modified by David F. Barrero
 This file includes code from the following sources:
@@ -23,6 +25,7 @@ https://api.arcade.academy/en/latest/examples/view_instructions_and_game_over.ht
 
 
 """
+
 
 import arcade
 import random
